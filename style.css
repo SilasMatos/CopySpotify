@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;0,900;1,500;1,800;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+/*Nav Bar*/
+#navbarNav ul li a{
+  color: #fff;
+  font-weight: 800;
+  padding: 0px 0px 0px 30px;
+  font-size: 12pt;
+}
+.navbar{
+  padding: 20px;
+  background-color: #000;
+}
+.logo{
+width: 130px;
+}
+/* Primeira sessão*/
+#edit-container{
+  padding-top: 7rem;
+}
+#sectionedit{
+  background-color: #993399;
+}
+.col-text-edit{
+  color: #fff;
+}
+.col-text-edit h6{
+  font-weight: 600;
+ font-size: 11pt;
+}
+.col-text-edit h1{
+  font-size: 42pt;
+  font-weight: bold;
+  padding-top: 2rem;
+
+}
+.col-text-edit h4{
+  padding-top: 2rem;
+}
+.col-text-edit p{
+  font-size: 10pt;
+
+}
+.btn-edit{
+  background-color: #000;
+  color: #fff;
+  width: 280px;
+  font-size: 10pt;
+  font-weight: 800;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.btn-edit:hover{
+  color: #fff;
+  transform: scale(1.04);
+}
+.img-edit{
+padding-bottom: 5rem;
+margin-left: 1rem;
+}
+/* Segunda Sessão*/
+.second-section-edit{
+  background-color: rgb(41, 65, 171);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+  background-position: right center;
+
+}
+@media (max-width:1200px){
+  .second-section-edit{
+    background-color: rgb(41, 65, 171);
+    background-image: none;
+}
+  }
+.text-col-edit {
+margin-top: 2rem;
+color: #1ed760;
+}
+.text-col-edit h6{
+margin-top: 5rem;
+font-weight: 600;
+}
+.text-col-edit h1{
+  margin-top: 3rem;
+  font-size: 50pt;
+  font-weight: 900;
+}
+.text-col-edit h4{
+  margin-top: 3rem;
+}
+.edit-btn{
+  background-color: #1ed760;
+  color: rgb(41, 65, 171);
+  width: 300px;
+  font-size: 13pt;
+  font-weight: 800;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.edit-btn:hover{
+  color: rgb(41, 65, 171);
+  transform: scale(1.04);
+}
+/*footer*/
+.footer-edit{
+  background:#000;
+}
+.logo-edit{
+  width: 160px;
+}
+.col-footer-edit{
+  margin-top: 4.5rem;
+}
+.text-muted{
+  color: #fff;
+}
+.p-edit{
+  color: #fff;
+  
+}
+
+.footer-list ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 11pt;
+}
+
+.footer-list ul li a:hover{
+  color: #1ed760;
+}
+.footer-edit-col {
+  margin-top: 5rem;
+}
+#robust{
+  margin-bottom: 4rem;
+  color: #fff;
+}
+.h6-edit{
+  color: #919496;
+}
+.icon-edit{
+  color: #fff;
+  font-size: 16pt;
+  background-color: #222326;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50%;
+}
+.icon-edit:hover{
+  color: #1ed760;
+}
+
+
+
+/*adsasdas*/
+.col-flex-edit ul li a{
+  font-size: 9pt;
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(160, 160, 160);
+}
+.col-flex-edit ul li a:hover{
+color: #1ed760;
+}
+
+.col-flex-edit ul{
+  display: flex;
+  
+}
+.col-flex-edit{
+display: flex;
+justify-content: space-between;
+}
+.col-flex-edit{
+  margin-top: 7rem;
+}
+#span_name{
+  color: rgb(160, 160, 160);
+  font-size: 11pt;
+}
